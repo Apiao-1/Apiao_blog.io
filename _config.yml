@@ -1,0 +1,69 @@
+plugins: [jekyll-paginate]
+
+# Site settings
+#Coding Future_Apiao
+title: 过客别墅
+header-img: "img/pic1.jpg"
+tagline: "cn"  
+description: "阿朴的个人博客"  
+baseurl: ""
+url: "http://wwapiao"  
+
+
+# About/contact
+owner: 
+  name: " Apiao"
+  email: ms_zhangpuping@163.com
+  bio: "Coding Life"
+
+# Data
+gavatar: http://dreamofbook.qiniudn.com/Az..png
+favicon: img/favicon.png
+
+douban_username: 159433450
+twitter_username: 
+github_username: q827926435 
+facebook_username: 
+weibo_username: wwapiao
+zhihu_username: xiao-bei-68-15
+qqzone_username: 
+mail_username: ms_zhangpuping@163.com
+
+# Build settings  
+# use Github Flavored Markdown !important  
+# document: http://jekyllrb.com/docs/configuration/#kramdown  
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 8
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Shanghai
+
+# Defaults for posts
+defaults:
+  -
+    scope: 
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Apiao"
+      header-img: "img/green.jpg" # We don't want posts without a header image, that whould mean white on white
+
+# Comments 
+comments :
+  provider : duoshuo
+  duoshuo :
+    short_name : 
+  disqus :
+      short_name : 
+
+# Analytics and webmaster tools stuff goes here
+google_analytics: UA-105807769-1
+google_verify:
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Links to include in footer navigation

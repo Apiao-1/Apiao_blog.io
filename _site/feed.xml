@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>过客别墅</title>
+    <description>阿朴的个人博客</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Fri, 01 Sep 2017 15:51:50 +0800</pubDate>
+    <lastBuildDate>Fri, 01 Sep 2017 15:51:50 +0800</lastBuildDate>
+    <generator>Jekyll v3.5.2</generator>
+    
+      <item>
+        <title>Hello World</title>
+        <description>&lt;h3 id=&quot;序言&quot;&gt;序言&lt;/h3&gt;
+&lt;p&gt;耗时两天，基于github-page的个人blog就这样飞速地搭起来了，整个流程唯一花钱的地方就是买了.com的顶级域名，服务器则选择直接用github-page提供的免费服务器，至于前端页面，本着“没有设计的本事就别干设计的活”的思想，果断从网上下一个模板下来自己改（改别人的代码果然比较花时间，改了4天才改成现在自己想要的样式），至此，从决定要开始做一个个人网站到最后上线第一篇博文，历时6天。&lt;/p&gt;
+
+&lt;h3 id=&quot;初衷&quot;&gt;初衷&lt;/h3&gt;
+&lt;p&gt;首先说说为什么想搭一个个人网站，最先是受启发于一个圈内的朋友，她在动态中发布了自己基于Django搭建的个人博客，我点进去一看，嗯，还不错。于是乎，我就想着我是不是也能搭一个网站出来，正好那段时间因为实习的关系，学习了大量的前端知识，html、css、svg、snap、javascript等等都略知一二，可苦于没有练手的机会，就这样，搭建个人网站的种子便种下了，由于实习的关系，这颗种子一直到最近才发芽。&lt;/p&gt;
+
+&lt;p&gt;开发个人blog的另一个原因是我比较崇尚自由，现在市面上盛名的博客网站很多，典型如CSDN、简书等等都能满足个人blog的需求，比起在这些大型网站注册去写博客，受缚与现有的网站框架、模板，我更倾向于搭建一个只属于自己的小窝，想改什么就改什么，没有各种悬浮的广告位，没有各种花里胡哨的令人眼花缭乱的元素，随时都能根据自己的喜好进行更改，无论是整个网站模板也好，背景图片也好，anything。&lt;/p&gt;
+
+&lt;h3 id=&quot;关于这个博客&quot;&gt;关于这个博客&lt;/h3&gt;
+&lt;p&gt;博客的命名来源于张敬轩的&lt;a href=&quot;https://y.qq.com/n/yqq/song/004X6J5V4Aldjg.html?ADTAG=baiduald&amp;amp;play=1&quot;&gt;《过客别墅》&lt;/a&gt;，林夕作词。轩仔是我非常喜欢的一位港台歌手，喜欢粤语歌的旁友们不妨去听听他的歌，不会让你失望的~博客目前一共分为5个版块，即首页右上角的5个链接，Home首页，About写了些我个人的信息，Archieve则是目前为止按时间顺序罗列的文章目录，Memoirs是我个人的回忆录（还在开发中），Tags是每篇文章按标签分类汇总出的文章目录。如有bug还请各位看官多多包涵，功能还在不断完善~&lt;/p&gt;
+
+&lt;h3 id=&quot;最后&quot;&gt;最后&lt;/h3&gt;
+&lt;p&gt;嗯，鉴于网上的一些教程都已经比较老旧，这几年github的改动也较大，自己在搭建的过程中吃了不少苦头（忍不住吐槽某辣鸡X度，很多问题还是得靠google），前车之鉴，在接下来的系列博文中将为大家详细说说怎样基于github-page搭建一个成本极低的博客。&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 01 Sep 2017 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/blog/2017/09/01/Hello-World/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2017/09/01/Hello-World/</guid>
+        
+        <category>随笔</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>基于github-page搭建个人blog（概要）</title>
+        <description>&lt;p&gt;因为最近实习结束外加各种杂七杂八的琐事，又想趁开学前的最后一礼拜回家好好放松一趟（嗯，通俗来讲就是很忙：），系列的开篇博文就先说说这个博客的大致架构吧，大家可以先有个概念要做哪些事。&lt;/p&gt;
+
+&lt;h4 id=&quot;域名&quot;&gt;域名&lt;/h4&gt;
+&lt;p&gt;经大多数乎友推荐选择了从&lt;a href=&quot;https://sg.godaddy.com/zh?isc=gennbacn29&amp;amp;countrview=1&amp;amp;currencytype=CNY&amp;amp;mkwid=WFSMCUdy&amp;amp;cvosrc=ppc.baidu&quot;&gt;goDaddy&lt;/a&gt;购买的顶级域名，包年大概也就￥58的样子，算是比较不错的选择（选购时记得搜索优惠码），不过后来在找服务器的时候发现国内一些公司提供的域名价格会更优惠，比如&lt;a href=&quot;https://dnspod.qcloud.com/act/seckill?utm_source=portal&amp;amp;utm_medium=recommend&amp;amp;utm_campaign=recmd3&amp;amp;from=doufu3&quot;&gt;腾讯云&lt;/a&gt;、&lt;a href=&quot;https://wanwang.aliyun.com/?spm=5176.8142029.735711.56.23896dfa2q0NIq&quot;&gt;阿里云&lt;/a&gt;、&lt;a href=&quot;https://cloud.baidu.com/index.html?track=cp:npinzhuan|pf:pc|pp:left|ci:|pu:495&quot;&gt;百度云&lt;/a&gt;，大家在选购时可以多加比较，域名种类有很多种，比较贵的就是.com/.cn/.net的顶级域名，具体选择可以看个人喜好。&lt;/p&gt;
+
+&lt;h4 id=&quot;服务器&quot;&gt;服务器&lt;/h4&gt;
+&lt;p&gt;托管在github-pages上，免费，300M空间，作为个人博客来说足够了，同时作为轻量级的博客系统，配置相对而言较简洁。缺点也比较明显，由于使用Jekyll模板系统，只能发布静态页，无法动态加载，所以如果页面元素过多，加载速度会较慢。&lt;/p&gt;
+
+&lt;h4 id=&quot;前端&quot;&gt;前端&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;GoodThingList/GoodJekyllBlogList.md at master · cnfeat/GoodThingList&quot;&gt;GoodThingList/GoodJekyllBlogList.md at master · cnfeat/GoodThingList&lt;/a&gt;上有各种风格的模板，有一定前端基础可以自己在模板基础上加以改动。&lt;/p&gt;
+
+&lt;h4 id=&quot;后台&quot;&gt;后台&lt;/h4&gt;
+&lt;p&gt;安装好Jekyll环境后，可直接在本地加以编辑并测试，需注意Liquid语言模板的写法&lt;/p&gt;
+
+&lt;h4 id=&quot;数据库&quot;&gt;数据库&lt;/h4&gt;
+&lt;p&gt;github-page无需外接数据库&lt;/p&gt;
+
+&lt;h4 id=&quot;版本迭代&quot;&gt;版本迭代&lt;/h4&gt;
+&lt;p&gt;Git，通过GitHub Desk可在改动后直接发布commit&lt;/p&gt;
+
+&lt;h4 id=&quot;图床&quot;&gt;图床&lt;/h4&gt;
+&lt;p&gt;推荐七牛云，10G免费流量&lt;/p&gt;
+
+&lt;h4 id=&quot;ssl证书加密&quot;&gt;SSL证书加密&lt;/h4&gt;
+&lt;p&gt;因为用了七牛云的图床，顺便就在里边签了TrustAsia的证书，这里还是推荐用 Letsencrypt，知名度更高，不过后来签发下来之后发现github-page无法发布证书，如果想要加密还是需要用 CloudFlare，做一次代理，这个具体操作之后会详细说明（通过 CloudFlare其实不需要额外去注册证书）
+&lt;img src=&quot;http://ovfvfmquv.bkt.clouddn.com/%E8%AF%81%E4%B9%A6.png&quot; alt=&quot;SSL证书.png&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;完成上述内容你的博客就飞速地搭起来啦，总计成本就是买了域名，其余的用免费的均可实现。最花时间的部分莫过于模板的改动，需要花时间去理解模板作者的代码并加以更改，当然好的模板一般在配置文件_config里即可完成大部分元素的更改，但像我这样爱折腾的人总是不能挑出最心仪的模板，在现有基础上更改模板的css、html也就难以避免了。&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 31 Aug 2017 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/blog/2017/08/31/%E5%9F%BA%E4%BA%8Egithub-page%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BAblog-%E4%B8%80/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2017/08/31/%E5%9F%BA%E4%BA%8Egithub-page%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BAblog-%E4%B8%80/</guid>
+        
+        <category>技术类</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="阿朴的个人博客">
+    <!-- bing_verify -->
+    <meta name="msvalidate.01" content="B052A249B9765E4AEAA143BBA3519CA5" />
+
+    <title>基于github-page搭建个人blog（概要） - 过客别墅</title>
+    <link rel="canonical" href="http://localhost:4000/blog/2017/08/31/%E5%9F%BA%E4%BA%8Egithub-page%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BAblog-%E4%B8%80/">
+
+    <!-- Icons -->
+    <link rel="shortcut icon" href="img/favicon.ico">
+    
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/clean-blog.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<!--     <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'> -->
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+
+
+
+
+
+<body ontouchstart="">
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Coding Life</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                
+                <li>
+                    <a href="/about/">About</a>
+                </li>
+                
+                <li>
+                    <a href="/archive/">Archive</a>
+                </li>
+                
+                <li>
+                    <a href="/memoirs/">Memoirs</a>
+                </li>
+                
+                <li>
+                    <a href="/tags/">Tags</a>
+                </li>
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+
+    <!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        background-image: url('/img/article3.jpg')
+    }
+</style>
+<header class="intro-header" >
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="Tags">
+                        
+                        <a class="tag" href="/Tags/#技术类" title="技术类">技术类</a>
+                        
+                    </div>
+                    <h1>基于github-page搭建个人blog（概要）</h1>
+                    
+                    <span class="meta">Posted by Apiao on August 31, 2017</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 post-container">
+
+                <p>因为最近实习结束外加各种杂七杂八的琐事，又想趁开学前的最后一礼拜回家好好放松一趟（嗯，通俗来讲就是很忙：），系列的开篇博文就先说说这个博客的大致架构吧，大家可以先有个概念要做哪些事。</p>
+
+<h4 id="域名">域名</h4>
+<p>经大多数乎友推荐选择了从<a href="https://sg.godaddy.com/zh?isc=gennbacn29&amp;countrview=1&amp;currencytype=CNY&amp;mkwid=WFSMCUdy&amp;cvosrc=ppc.baidu">goDaddy</a>购买的顶级域名，包年大概也就￥58的样子，算是比较不错的选择（选购时记得搜索优惠码），不过后来在找服务器的时候发现国内一些公司提供的域名价格会更优惠，比如<a href="https://dnspod.qcloud.com/act/seckill?utm_source=portal&amp;utm_medium=recommend&amp;utm_campaign=recmd3&amp;from=doufu3">腾讯云</a>、<a href="https://wanwang.aliyun.com/?spm=5176.8142029.735711.56.23896dfa2q0NIq">阿里云</a>、<a href="https://cloud.baidu.com/index.html?track=cp:npinzhuan|pf:pc|pp:left|ci:|pu:495">百度云</a>，大家在选购时可以多加比较，域名种类有很多种，比较贵的就是.com/.cn/.net的顶级域名，具体选择可以看个人喜好。</p>
+
+<h4 id="服务器">服务器</h4>
+<p>托管在github-pages上，免费，300M空间，作为个人博客来说足够了，同时作为轻量级的博客系统，配置相对而言较简洁。缺点也比较明显，由于使用Jekyll模板系统，只能发布静态页，无法动态加载，所以如果页面元素过多，加载速度会较慢。</p>
+
+<h4 id="前端">前端</h4>
+<p><a href="GoodThingList/GoodJekyllBlogList.md at master · cnfeat/GoodThingList">GoodThingList/GoodJekyllBlogList.md at master · cnfeat/GoodThingList</a>上有各种风格的模板，有一定前端基础可以自己在模板基础上加以改动。</p>
+
+<h4 id="后台">后台</h4>
+<p>安装好Jekyll环境后，可直接在本地加以编辑并测试，需注意Liquid语言模板的写法</p>
+
+<h4 id="数据库">数据库</h4>
+<p>github-page无需外接数据库</p>
+
+<h4 id="版本迭代">版本迭代</h4>
+<p>Git，通过GitHub Desk可在改动后直接发布commit</p>
+
+<h4 id="图床">图床</h4>
+<p>推荐七牛云，10G免费流量</p>
+
+<h4 id="ssl证书加密">SSL证书加密</h4>
+<p>因为用了七牛云的图床，顺便就在里边签了TrustAsia的证书，这里还是推荐用 Letsencrypt，知名度更高，不过后来签发下来之后发现github-page无法发布证书，如果想要加密还是需要用 CloudFlare，做一次代理，这个具体操作之后会详细说明（通过 CloudFlare其实不需要额外去注册证书）
+<img src="http://ovfvfmquv.bkt.clouddn.com/%E8%AF%81%E4%B9%A6.png" alt="SSL证书.png" /></p>
+
+<hr />
+<p>完成上述内容你的博客就飞速地搭起来啦，总计成本就是买了域名，其余的用免费的均可实现。最花时间的部分莫过于模板的改动，需要花时间去理解模板作者的代码并加以更改，当然好的模板一般在配置文件_config里即可完成大部分元素的更改，但像我这样爱折腾的人总是不能挑出最心仪的模板，在现有基础上更改模板的css、html也就难以避免了。</p>
+
+
+
+                <hr>
+
+                <ul class="pager">
+                    
+                    
+                    <li class="next">
+                        <a href="/blog/2017/09/01/Hello-World/" data-toggle="tooltip" data-placement="top" title="Hello World">Next Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+
+                <!-- Duoshuo Share start -->
+                <style>
+                    .ds-share{
+                        text-align: right;
+                    }
+                    
+                    @media only screen and (max-width: 700px) {
+                        .ds-share {
+
+                        }
+                    }
+                </style>
+
+<!--                 <div class="ds-share"
+                    data-thread-key="/blog/2017/08/31/基于github page搭建个人blog（一）" data-title="基于github-page搭建个人blog（概要）"
+                    data-images="http://localhost:4000/img/article3.jpg"
+                    data-content="因为最近实习结束外加各种杂七杂八的琐事，又想趁开学前的最后一礼拜回家好好放松一趟（嗯，通俗来讲就是很忙：），系列的开篇博文就先说说这个博客的大致架构吧，大... | Microdust:Azeril's blog"
+                    data-url="http://localhost:4000/blog/2017/08/31/%E5%9F%BA%E4%BA%8Egithub-page%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BAblog-%E4%B8%80/">
+                    <div class="ds-share-inline">
+                      <ul  class="ds-share-icons-16">
+
+                        <li data-toggle="ds-share-icons-more"><a class="ds-more" href="#">分享到：</a></li>
+                        <li><a class="ds-wechat flat" href="javascript:void(0);" data-service="wechat">微信</a></li>
+                        <li><a class="ds-weibo flat" href="javascript:void(0);" data-service="weibo">微博</a></li>
+                        <li><a class="ds-douban flat" href="javascript:void(0);" data-service="douban">豆瓣</a></li>
+                      </ul>
+                      <div class="ds-share-icons-more">
+                      </div>
+                    </div>
+                <hr>
+                </div> -->
+                <!-- Duoshuo Share end-->
+
+
+                <!-- 多说评论框 start -->
+                <div class="comment">
+                    <div class="ds-thread" data-thread-key="/blog/2017/08/31/基于github page搭建个人blog（一）" data-title="基于github-page搭建个人blog（概要）" data-url="http://localhost:4000/blog/2017/08/31/%E5%9F%BA%E4%BA%8Egithub-page%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BAblog-%E4%B8%80/"></div>
+                </div>
+                <!-- 多说评论框 end -->
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"cnfeat"};
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0]
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+</script>
+<!-- 多说公共JS代码 end -->
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("http://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'always',
+          placement: 'right',
+          icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <li>
+                        <a href="/feed.xml">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+<!--                      -->
+
+                    
+                    <li>
+                        <a href="https://github.com/q827926435">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                                       
+<!--                     
+                    
+                    <li>
+                        <a href="http://www.douban.com/people/159433450">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-douban fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                     -->
+
+                    
+                    <li>
+                        <a href="mailto:ms_zhangpuping@163.com">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+
+                    <!--
+                    
+                    -->
+<!-- 
+                     -->
+
+                    
+                    
+                    <li>
+                        <a target="_blank" href="http://weibo.com/wwapiao">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://www.zhihu.com/people/xiao-bei-68-15">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa  fa-stack-1x fa-inverse">知</i>
+                            </span>
+                        </a>
+                    </li>
+                    
+
+
+                </ul>
+                <p class="copyright text-muted">
+<!--                 &copy; 2017  Apiao ❖ Powered by Jekyll
+ -->                Copyright  &copy; Apiao 2017
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/clean-blog.min.js "></script>
+
+
+
+<!-- Highlight.js -->
+<script>
+    async("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js",function(){
+        hljs.initHighlightingOnLoad();
+    })
+</script>
+<link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+
+
+</body>
+
+</html>
