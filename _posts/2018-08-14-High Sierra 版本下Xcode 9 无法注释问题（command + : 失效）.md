@@ -32,7 +32,7 @@ sudo /usr/libexec/xpccachectl
 
 打开Finder 中的Application文件夹，将其中的Xcode重命名，比如重命名成Acode，确定更改后打开，如果问题解决则大功告成，最后重新把名字改回来即可。
 
-> 参见Stack Overflow [](https://stackoverflow.com/questions/38847530/cant-comment-selection）
+> 参见Stack Overflow   https://stackoverflow.com/questions/38847530/cant-comment-selection
 
 #### 总结
 
@@ -57,11 +57,11 @@ sudo /usr/libexec/xpccachectl
 
 Stack Overflow中的相关问题：
 
-[](https://stackoverflow.com/questions/47101437/)
+https://stackoverflow.com/questions/47101437/ 
 
-[](https://stackoverflow.com/questions/38847530/)
+https://stackoverflow.com/questions/38847530/
 
-原鸣清的简书  [](https://www.jianshu.com/p/4494fb458edb)
+原鸣清的简书  https://www.jianshu.com/p/4494fb458edb
 
-okerivy的简书 [](https://www.jianshu.com/p/e4b8aff61250)
+okerivy的简书 https://www.jianshu.com/p/e4b8aff61250
 
