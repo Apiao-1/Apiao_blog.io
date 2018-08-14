@@ -9,6 +9,7 @@ header-img: "img/article3.jpg"
 ---
 
 将mac os版本更新至High Sierra 之后遇见Xcode的代码注释功能失效的问题，具体表现为**快捷键失效，且不能从下图所示Editor - Structure处手动添加**。
+
 （此前红框部分为灰色不可用状态 ，此处解决后已恢复正常）
 
 ![Editor - Structure](http://ovfvfmquv.bkt.clouddn.com/image-20180814104056976.png)
@@ -54,7 +55,8 @@ sudo /usr/libexec/xpccachectl
 
 改编自：
 
-[Stack Overflow中的两个相关问题]: https://stackoverflow.com/questions/47101437/
-[]: https://stackoverflow.com/questions/38847530/cant-comment-selection
+[Stack Overflow中的相关问题1]: https://stackoverflow.com/questions/47101437/
+[Stack Overflow中的相关问题2]: https://stackoverflow.com/questions/38847530/cant-comment-selection
 [原鸣清的简书]: https://www.jianshu.com/p/4494fb458edb
 [okerivy的简书]: https://www.jianshu.com/p/e4b8aff61250
+
