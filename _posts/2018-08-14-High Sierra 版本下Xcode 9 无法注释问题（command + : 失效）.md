@@ -55,8 +55,13 @@ sudo /usr/libexec/xpccachectl
 
 改编自：
 
-[Stack Overflow中的相关问题1]: https://stackoverflow.com/questions/47101437/
-[Stack Overflow中的相关问题2]: https://stackoverflow.com/questions/38847530/cant-comment-selection
-[原鸣清的简书]: https://www.jianshu.com/p/4494fb458edb
-[okerivy的简书]: https://www.jianshu.com/p/e4b8aff61250
+Stack Overflow中的相关问题：
+
+(https://stackoverflow.com/questions/47101437/ )
+
+(https://stackoverflow.com/questions/38847530/)
+
+原鸣清的简书  (https://www.jianshu.com/p/4494fb458edb)
+
+okerivy的简书 (https://www.jianshu.com/p/e4b8aff61250)
 
