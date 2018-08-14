@@ -27,7 +27,7 @@ sudo /usr/libexec/xpccachectl
 
 笔者在执行时便会遇见 /usr/libexec/xpccachectl: command not found错误（当然，都没有这个脚本了怎么能执行  (~﹏~) ）
 
-
+<br>
 
 2.Rename is good（非常神奇的方法，如其所说）
 
@@ -35,7 +35,7 @@ sudo /usr/libexec/xpccachectl
 
 > 参见Stack Overflow（https://stackoverflow.com/questions/38847530/cant-comment-selection）
 
-
+<br>
 
 #### 总结
 
@@ -52,11 +52,11 @@ sudo /usr/libexec/xpccachectl
 
 运气好的话到第四步即可解决此Bug，然而本人试了都不行，最后做到了第五步，含泪重装了Xcode解决（5.3个G用校园网下了好久 (..•˘_˘•..)）
 
+<br>
 
+<br>
 
-
-
-
+<br>
 
 改编自：
 
