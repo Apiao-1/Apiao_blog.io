@@ -8,14 +8,10 @@ description: "将mac os版本更新至high Sierra 之后遇见Xcode的代码注�
 header-img: "img/article3.jpg"
 ---
 
-# High Sierra 版本下Xcode 9 无法注释问题（command + / 失效）
-
 将mac os版本更新至High Sierra 之后遇见Xcode的代码注释功能失效的问题，具体表现为**快捷键失效，且不能从下图所示Editor - Structure处手动添加**。
 （此前红框部分为灰色不可用状态 ，此处解决后已恢复正常）
 
-
-
-![Editor - Structure](https://img-blog.csdn.net/2018081411132623?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM3MTkzNzA1/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![Editor - Structure](http://ovfvfmquv.bkt.clouddn.com/image-20180814104056976.png)
 
 
 
@@ -31,13 +27,15 @@ sudo /usr/libexec/xpccachectl
 
 笔者在执行时便会遇见 /usr/libexec/xpccachectl: command not found错误（当然，都没有这个脚本了怎么能执行  (~﹏~) ）
 
+</br>
+
 2.Rename is good（非常神奇的方法，如其所说）
 
 打开Finder 中的Application文件夹，将其中的Xcode重命名，比如重命名成Acode，确定更改后打开，如果问题解决则大功告成，最后重新把名字改回来即可。
 
 > 参见Stack Overflow（https://stackoverflow.com/questions/38847530/cant-comment-selection）
 
-
+</br>
 
 #### 总结
 
