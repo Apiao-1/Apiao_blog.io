@@ -27,15 +27,11 @@ sudo /usr/libexec/xpccachectl
 
 笔者在执行时便会遇见 /usr/libexec/xpccachectl: command not found错误（当然，都没有这个脚本了怎么能执行  (~﹏~) ）
 
-<br>
-
 2.Rename is good（非常神奇的方法，如其所说）
 
 打开Finder 中的Application文件夹，将其中的Xcode重命名，比如重命名成Acode，确定更改后打开，如果问题解决则大功告成，最后重新把名字改回来即可。
 
 > 参见Stack Overflow（https://stackoverflow.com/questions/38847530/cant-comment-selection）
-
-<br>
 
 #### 总结
 
@@ -56,16 +52,9 @@ sudo /usr/libexec/xpccachectl
 
 <br>
 
-<br>
-
 改编自：
 
-Stack Overflow中的两个相关问题：
-
-https://stackoverflow.com/questions/47101437/
-
-https://stackoverflow.com/questions/38847530/cant-comment-selection
-
-原鸣清的简书：https://www.jianshu.com/p/4494fb458edb
-
-okerivy的简书：https://www.jianshu.com/p/e4b8aff61250
+[Stack Overflow中的两个相关问题]: https://stackoverflow.com/questions/47101437/
+[]: https://stackoverflow.com/questions/38847530/cant-comment-selection
+[原鸣清的简书]: https://www.jianshu.com/p/4494fb458edb
+[okerivy的简书]: https://www.jianshu.com/p/e4b8aff61250
