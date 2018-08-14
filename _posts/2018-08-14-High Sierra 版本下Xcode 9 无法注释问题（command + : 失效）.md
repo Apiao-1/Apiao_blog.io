@@ -53,6 +53,11 @@ sudo /usr/libexec/xpccachectl
 运气好的话到第四步即可解决此Bug，然而本人试了都不行，最后做到了第五步，含泪重装了Xcode解决（5.3个G用校园网下了好久 (..•˘_˘•..)）
 
 
+
+
+
+
+
 改编自：
 
 Stack Overflow中的两个相关问题：
