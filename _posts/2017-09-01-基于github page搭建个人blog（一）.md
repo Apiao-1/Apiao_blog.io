@@ -36,11 +36,17 @@ Git，通过GitHub Desk可在改动后直接发布commit
 Google Analytics（需翻墙）
 
 #### 图床
-推荐七牛云，10G免费流量
+//推荐七牛云，10G免费流量
+
+驳回上述⬆️
+
+推荐腾讯云，依然有免费的流量
+
+七牛云恶心的地方是需要绑一个通过备案的域名，它一开始会给你发一个测试域名，所以可以正常使用，但过段时间过期了图床就崩了，把上面的图片重新找回来还废了不少功夫
 
 #### SSL证书加密
 因为用了七牛云的图床，顺便就在里边签了TrustAsia的证书，这里还是推荐用 Letsencrypt，知名度更高，不过后来签发下来之后发现github-page无法发布证书，如果想要加密还是需要用 CloudFlare，做一次代理，这个具体操作之后会详细说明（通过 CloudFlare其实不需要额外去注册证书）
-![SSL证书.png](http://ovfvfmquv.bkt.clouddn.com/SSL%E8%AF%81%E4%B9%A6.png)
+![SSL证书.png](https://apiao-1258505467.cos.ap-chengdu.myqcloud.com/blog_pic/SSL%E8%AF%81%E4%B9%A6.png?q-sign-algorithm=sha1&q-ak=AKIDyr3dEsDngxVLSufZxwhp0fD5KAk2OGNY&q-sign-time=1547977341;1547979141&q-key-time=1547977341;1547979141&q-header-list=&q-url-param-list=&q-signature=d2feaa980499c531d4ac5849a4a30efee35888ca&x-cos-security-token=23382049a3071e5a8da2e6d9056ba6a3b8c7223d10001)
 
 ---
 完成上述内容你的博客就飞速地搭起来啦，总计成本就是买了域名，其余的用免费的均可实现。最花时间的部分其实在于模板的改动，需要花时间去理解模板作者的代码并加以更改，当然好的模板一般在配置文件_config里即可完成大部分元素的更改，但像我这样爱折腾的人总是不能挑出最心仪的模板，在现有基础上更改模板的css、html也就难以避免了。
