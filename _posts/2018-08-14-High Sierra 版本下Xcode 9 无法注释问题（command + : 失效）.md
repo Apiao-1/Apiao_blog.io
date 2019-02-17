@@ -12,7 +12,7 @@ header-img: "img/article3.jpg"
 
 （此前红框部分为灰色不可用状态 ，此处解决后已恢复正常）
 
-![Editor - Structure](https://apiao-1258505467.cos.ap-chengdu.myqcloud.com/blog_pic/Xcode%E6%B3%A8%E9%87%8A%E5%A4%B1%E6%95%88%E6%88%AA%E5%9B%BE.png?q-sign-algorithm=sha1&q-ak=AKID7TFn3VnYZ9xvWVvKWkWD9dEkOwihXBtl&q-sign-time=1547977297;1547979097&q-key-time=1547977297;1547979097&q-header-list=&q-url-param-list=&q-signature=c215ab7df1aca414e825ca12860e9afd3b9a56f9&x-cos-security-token=f9aaa102077c612bbb1363f72a79d804e5c1c16710001)
+![Editor - Structure](https://apiao-1258505467.cos.ap-chengdu.myqcloud.com/blog_pic/Xcode%E6%B3%A8%E9%87%8A%E5%A4%B1%E6%95%88%E6%88%AA%E5%9B%BE.png)
 
 
 
