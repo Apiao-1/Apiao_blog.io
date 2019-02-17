@@ -4,7 +4,7 @@ title: Hello World
 subtitle: ""
 date: 2017-08-31
 categories: blog
-tags: [随笔]
+tags: [随笔 Coding Life]
 description: “据说第一篇博文都是这个”
 header-img: "img/article3.jpg"
 ---
