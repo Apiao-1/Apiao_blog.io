@@ -280,7 +280,7 @@ public class SeckillService {
 ![在这里插入图片描述](https://apiao-1258505467.cos.ap-chengdu.myqcloud.com/blog_pic/seckill/seckill_QPS2.png)
 
 其实还要优化的话，可以从批处理的角度去考虑，即一次导出100个码到内存中，成功/失败抢码的写回也是100个才写一次，这个做法牺牲了部分的可靠性但节省的是成百倍的中间件性能，根据需求考虑是否使用。
->这部分的思考见上一篇系列博文[《Spring MVC + Redis实现激活码秒杀活动（3.通过lpop操作实现并发控制的Version2）](http://zc-apiao.world/blog/2018/11/11/Spring-MVC-+-Redis%E5%AE%9E%E7%8E%B0%E6%BF%80%E6%B4%BB%E7%A0%81%E7%A7%92%E6%9D%80%E6%B4%BB%E5%8A%A8-3.%E9%80%9A%E8%BF%87lpop%E6%93%8D%E4%BD%9C%E5%AE%9E%E7%8E%B0%E5%B9%B6%E5%8F%91%E6%8E%A7%E5%88%B6%E7%9A%84Version2/)》
+>这部分的思考见上一篇系列博文[《Spring MVC + Redis实现激活码秒杀活动（3.通过lpop操作实现并发控制的Version2）](http://zc-apiao.world/blog/2018/12/12/Spring-MVC-+-Redis%E5%AE%9E%E7%8E%B0%E6%BF%80%E6%B4%BB%E7%A0%81%E7%A7%92%E6%9D%80%E6%B4%BB%E5%8A%A8-3.%E9%80%9A%E8%BF%87lpop%E6%93%8D%E4%BD%9C%E5%AE%9E%E7%8E%B0%E5%B9%B6%E5%8F%91%E6%8E%A7%E5%88%B6%E7%9A%84Version2/)》
 
 
 
