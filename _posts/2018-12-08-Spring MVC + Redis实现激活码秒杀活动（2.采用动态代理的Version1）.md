@@ -2,7 +2,7 @@
 layout: post
 title: Spring MVC + Redis实现激活码秒杀活动（2.采用动态代理的Version1）
 categories: blog
-date: 2018-11-08
+date: 2018-12-08
 tags: [技术类]
 description: "网易实习的第二个项目，激活码秒杀活动后台记录"
 header-img: "img/article3.jpg"

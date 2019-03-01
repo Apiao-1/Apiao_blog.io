@@ -2,7 +2,7 @@
 layout: post
 title: Spring MVC + Redis实现激活码秒杀活动（3.通过lpop操作实现并发控制的Version2）
 categories: blog
-date: 2018-11-11
+date: 2018-12-12
 tags: [技术类]
 description: "网易实习的第二个项目，激活码秒杀活动后台记录"
 header-img: "img/article3.jpg"
